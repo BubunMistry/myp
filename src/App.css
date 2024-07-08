@@ -1,0 +1,160 @@
+
+
+
+
+.bttn {
+
+    background-image: linear-gradient(95deg, #2d42ff 11%, #c60aff 55%, #ff7b00 100%);
+
+
+
+    color: #ececec;
+}
+
+
+.bttn:hover {
+
+    background-image: linear-gradient(95deg, #2d42ff 11%, #8625a3 55%, #ff7b00 100%);
+
+    color: #fff;
+    
+
+
+}
+
+#bttn {
+
+    background-image: linear-gradient(95deg, #2d42ff 11%, #c60aff 55%, #ff7b00 100%);
+
+
+
+    color: #ececec;
+}
+
+
+#bttn:hover {
+
+
+    background-image: linear-gradient(95deg, #2d42ff 11%, #ca1bff 55%, #ff8e23 100%);
+
+    color: #fff;
+
+
+}
+
+
+
+#bigtext {
+    font-family: Acme, sans-serif;
+    font-style: normal;
+ 
+    /* Apply linear gradient to text */
+    background: linear-gradient(95deg, #2d42ff 3%, #c60aff 30%, #ff9a00 100%);
+    /* Set background clip to text */
+    -webkit-background-clip: text;
+    /* Set text fill color to transparent */
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #3700ff 0%,
+    #7b00ff 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+    
+}
+
+
+
+
+
+
+
+.skill {
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+
+.skill h3 {
+    margin: 0 0 10px;
+}
+
+.skill-bar {
+    background: #c9e2b570;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 15px;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    width: 0;
+    background:  linear-gradient(95deg, #2d42ff 11%, #ca1bff 55%, #ff8e23 100%);
+    text-align: right;
+    line-height: 30px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    transition: width 1s;
+}
+
+
+
+   
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.146);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.img-overlay:hover {
+    opacity: 1;
+}
+
+.img-text {
+    font-size: 1.5rem;
+}
+
+.card-img {
+    transition: transform 0.3s ease;
+}
+
+.card-img:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
